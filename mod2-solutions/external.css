@@ -1,27 +1,36 @@
 *{
 	box-sizing: border-box;
 }
-.section-title
-{	
-	background-color: red;
-	position: relative;
-float:right;
- text-align: center;
-}
-.he
+
+div
 {
-	float: right;
+	float: left;
 }
-#section1
+h1
+{
+	align-content: center;
+	text-align: center;
+}
+.title
+{
+	width: 26.66%; 
+	text-align: center;
+	float: right; 
+	border-left: medium solid;
+	border-bottom: medium solid;
+	background-color: green;
+}
+.title h1
+{
+	margin: 0px;
+}
+.section
 {
 	background-color: orange;
-	position: relative;
-	border: 2px ;
-	border: solid blue;
+	margin: 5px;
+	border: solid black;
 }
-p{
-	background-color: blue;
-}
+
 @media (min-width:992px ){
 .col-lg-1 
 {
