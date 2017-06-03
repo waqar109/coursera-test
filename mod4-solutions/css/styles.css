@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+.navbar-brand a
+{
+	font-size: 41px;
+}
+.section
+{
+	background-color: orange;
+	margin: 5px;
+	border: solid black;
+}
+.section h1
+{
+	margin: 5px;
+}
+
+@media (min-width:992px ){
+
+}
+@media (min-width:768px ) and (max-width:991px ){
+
+}
