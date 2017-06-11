@@ -1,15 +1,13 @@
-var array=new Array();
-array[0]="John";
-array[1]="Billy";
-array[2]="Jarco";
-function filter(letter) {
-  for (var i = 0; i < array.length; i++) {
 
-    if (array[i].indexOf(letter) == 0 || 
-    	array[i].indexOf(letter.toLowerCase()) == 0)
-    	SpeakGoodBye(array[i]);
-    	else
-    		SpeakHello(array[i]);
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+
+for (var i = 0; i < names.length; i++) {
+ var firstLetter = names[i].charAt(0).toLowerCase();
+ if (firstLetter === 'j') {
+    byeSpeaker.speak(names[i]);
+  } else {
+    helloSpeaker.speak(names[i]);
   }
 }
-filter("Jarco");
+
